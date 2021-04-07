@@ -1,0 +1,406 @@
+year;offence;gender of victim;age group;value
+2011;Cheating & Related;Female;21 Years Old And Below;135
+2012;Cheating & Related;Female;21 Years Old And Below;176
+2013;Cheating & Related;Female;21 Years Old And Below;141
+2014;Cheating & Related;Female;21 Years Old And Below;217
+2015;Cheating & Related;Female;21 Years Old And Below;280
+2016;Cheating & Related;Female;21 Years Old And Below;343
+2017;Cheating & Related;Female;21 Years Old And Below;304
+2018;Cheating & Related;Female;21 Years Old And Below;365
+2019;Cheating & Related;Female;21 Years Old And Below;508
+2011;Cheating & Related;Female;Above 21 Years Old;847
+2012;Cheating & Related;Female;Above 21 Years Old;680
+2013;Cheating & Related;Female;Above 21 Years Old;842
+2014;Cheating & Related;Female;Above 21 Years Old;1468
+2015;Cheating & Related;Female;Above 21 Years Old;2284
+2016;Cheating & Related;Female;Above 21 Years Old;2577
+2017;Cheating & Related;Female;Above 21 Years Old;2895
+2018;Cheating & Related;Female;Above 21 Years Old;2963
+2019;Cheating & Related;Female;Above 21 Years Old;3990
+2011;Cheating & Related;Female;Youths (7 To 19 Years Old);77
+2012;Cheating & Related;Female;Youths (7 To 19 Years Old);130
+2013;Cheating & Related;Female;Youths (7 To 19 Years Old);80
+2014;Cheating & Related;Female;Youths (7 To 19 Years Old);120
+2015;Cheating & Related;Female;Youths (7 To 19 Years Old);159
+2016;Cheating & Related;Female;Youths (7 To 19 Years Old);208
+2017;Cheating & Related;Female;Youths (7 To 19 Years Old);174
+2018;Cheating & Related;Female;Youths (7 To 19 Years Old);211
+2019;Cheating & Related;Female;Youths (7 To 19 Years Old);311
+2011;Outrage Of Modesty;Female;21 Years Old And Below;586
+2012;Outrage Of Modesty;Female;21 Years Old And Below;585
+2013;Outrage Of Modesty;Female;21 Years Old And Below;579
+2014;Outrage Of Modesty;Female;21 Years Old And Below;568
+2015;Outrage Of Modesty;Female;21 Years Old And Below;519
+2016;Outrage Of Modesty;Female;21 Years Old And Below;466
+2017;Outrage Of Modesty;Female;21 Years Old And Below;618
+2018;Outrage Of Modesty;Female;21 Years Old And Below;692
+2019;Outrage Of Modesty;Female;21 Years Old And Below;603
+2011;Outrage Of Modesty;Female;Above 21 Years Old;810
+2012;Outrage Of Modesty;Female;Above 21 Years Old;828
+2013;Outrage Of Modesty;Female;Above 21 Years Old;767
+2014;Outrage Of Modesty;Female;Above 21 Years Old;793
+2015;Outrage Of Modesty;Female;Above 21 Years Old;756
+2016;Outrage Of Modesty;Female;Above 21 Years Old;774
+2017;Outrage Of Modesty;Female;Above 21 Years Old;932
+2018;Outrage Of Modesty;Female;Above 21 Years Old;1037
+2019;Outrage Of Modesty;Female;Above 21 Years Old;960
+2011;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);474
+2012;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);427
+2013;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);446
+2014;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);439
+2015;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);416
+2016;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);349
+2017;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);475
+2018;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);533
+2019;Outrage Of Modesty;Female;Youths (7 To 19 Years Old);452
+2011;Rape;Female;21 Years Old And Below;105
+2012;Rape;Female;21 Years Old And Below;97
+2013;Rape;Female;21 Years Old And Below;83
+2014;Rape;Female;21 Years Old And Below;115
+2015;Rape;Female;21 Years Old And Below;107
+2016;Rape;Female;21 Years Old And Below;104
+2017;Rape;Female;21 Years Old And Below;116
+2018;Rape;Female;21 Years Old And Below;129
+2019;Rape;Female;21 Years Old And Below;181
+2011;Rape;Female;Above 21 Years Old;45
+2012;Rape;Female;Above 21 Years Old;41
+2013;Rape;Female;Above 21 Years Old;40
+2014;Rape;Female;Above 21 Years Old;51
+2015;Rape;Female;Above 21 Years Old;60
+2016;Rape;Female;Above 21 Years Old;45
+2017;Rape;Female;Above 21 Years Old;73
+2018;Rape;Female;Above 21 Years Old;85
+2019;Rape;Female;Above 21 Years Old;107
+2011;Rape;Female;Youths (7 To 19 Years Old);96
+2012;Rape;Female;Youths (7 To 19 Years Old);82
+2013;Rape;Female;Youths (7 To 19 Years Old);79
+2014;Rape;Female;Youths (7 To 19 Years Old);104
+2015;Rape;Female;Youths (7 To 19 Years Old);93
+2016;Rape;Female;Youths (7 To 19 Years Old);95
+2017;Rape;Female;Youths (7 To 19 Years Old);97
+2018;Rape;Female;Youths (7 To 19 Years Old);114
+2019;Rape;Female;Youths (7 To 19 Years Old);158
+2011;Robbery;Female;21 Years Old And Below;27
+2012;Robbery;Female;21 Years Old And Below;25
+2013;Robbery;Female;21 Years Old And Below;13
+2014;Robbery;Female;21 Years Old And Below;13
+2015;Robbery;Female;21 Years Old And Below;4
+2016;Robbery;Female;21 Years Old And Below;3
+2017;Robbery;Female;21 Years Old And Below;1
+2018;Robbery;Female;21 Years Old And Below;3
+2019;Robbery;Female;21 Years Old And Below;4
+2011;Robbery;Female;Above 21 Years Old;107
+2012;Robbery;Female;Above 21 Years Old;86
+2013;Robbery;Female;Above 21 Years Old;67
+2014;Robbery;Female;Above 21 Years Old;46
+2015;Robbery;Female;Above 21 Years Old;32
+2016;Robbery;Female;Above 21 Years Old;44
+2017;Robbery;Female;Above 21 Years Old;18
+2018;Robbery;Female;Above 21 Years Old;25
+2019;Robbery;Female;Above 21 Years Old;14
+2011;Robbery;Female;Youths (7 To 19 Years Old);18
+2012;Robbery;Female;Youths (7 To 19 Years Old);18
+2013;Robbery;Female;Youths (7 To 19 Years Old);9
+2014;Robbery;Female;Youths (7 To 19 Years Old);9
+2015;Robbery;Female;Youths (7 To 19 Years Old);3
+2016;Robbery;Female;Youths (7 To 19 Years Old);0
+2017;Robbery;Female;Youths (7 To 19 Years Old);0
+2018;Robbery;Female;Youths (7 To 19 Years Old);0
+2019;Robbery;Female;Youths (7 To 19 Years Old);3
+2011;Snatch Theft;Female;21 Years Old And Below;48
+2012;Snatch Theft;Female;21 Years Old And Below;37
+2013;Snatch Theft;Female;21 Years Old And Below;30
+2014;Snatch Theft;Female;21 Years Old And Below;12
+2015;Snatch Theft;Female;21 Years Old And Below;5
+2016;Snatch Theft;Female;21 Years Old And Below;6
+2017;Snatch Theft;Female;21 Years Old And Below;6
+2018;Snatch Theft;Female;21 Years Old And Below;4
+2019;Snatch Theft;Female;21 Years Old And Below;1
+2011;Snatch Theft;Female;Above 21 Years Old;231
+2012;Snatch Theft;Female;Above 21 Years Old;190
+2013;Snatch Theft;Female;Above 21 Years Old;162
+2014;Snatch Theft;Female;Above 21 Years Old;114
+2015;Snatch Theft;Female;Above 21 Years Old;67
+2016;Snatch Theft;Female;Above 21 Years Old;41
+2017;Snatch Theft;Female;Above 21 Years Old;29
+2018;Snatch Theft;Female;Above 21 Years Old;30
+2019;Snatch Theft;Female;Above 21 Years Old;22
+2011;Snatch Theft;Female;Youths (7 To 19 Years Old);32
+2012;Snatch Theft;Female;Youths (7 To 19 Years Old);24
+2013;Snatch Theft;Female;Youths (7 To 19 Years Old);21
+2014;Snatch Theft;Female;Youths (7 To 19 Years Old);9
+2015;Snatch Theft;Female;Youths (7 To 19 Years Old);5
+2016;Snatch Theft;Female;Youths (7 To 19 Years Old);4
+2017;Snatch Theft;Female;Youths (7 To 19 Years Old);5
+2018;Snatch Theft;Female;Youths (7 To 19 Years Old);3
+2019;Snatch Theft;Female;Youths (7 To 19 Years Old);1
+2011;Cheating & Related;Male;21 Years Old And Below;161
+2012;Cheating & Related;Male;21 Years Old And Below;120
+2013;Cheating & Related;Male;21 Years Old And Below;180
+2014;Cheating & Related;Male;21 Years Old And Below;311
+2015;Cheating & Related;Male;21 Years Old And Below;645
+2016;Cheating & Related;Male;21 Years Old And Below;549
+2017;Cheating & Related;Male;21 Years Old And Below;491
+2018;Cheating & Related;Male;21 Years Old And Below;603
+2019;Cheating & Related;Male;21 Years Old And Below;878
+2011;Cheating & Related;Male;Above 21 Years Old;1123
+2012;Cheating & Related;Male;Above 21 Years Old;840
+2013;Cheating & Related;Male;Above 21 Years Old;1147
+2014;Cheating & Related;Male;Above 21 Years Old;1949
+2015;Cheating & Related;Male;Above 21 Years Old;3614
+2016;Cheating & Related;Male;Above 21 Years Old;3171
+2017;Cheating & Related;Male;Above 21 Years Old;3028
+2018;Cheating & Related;Male;Above 21 Years Old;3574
+2019;Cheating & Related;Male;Above 21 Years Old;5499
+2011;Cheating & Related;Male;Youths (7 To 19 Years Old);104
+2012;Cheating & Related;Male;Youths (7 To 19 Years Old);74
+2013;Cheating & Related;Male;Youths (7 To 19 Years Old);108
+2014;Cheating & Related;Male;Youths (7 To 19 Years Old);188
+2015;Cheating & Related;Male;Youths (7 To 19 Years Old);360
+2016;Cheating & Related;Male;Youths (7 To 19 Years Old);303
+2017;Cheating & Related;Male;Youths (7 To 19 Years Old);284
+2018;Cheating & Related;Male;Youths (7 To 19 Years Old);349
+2019;Cheating & Related;Male;Youths (7 To 19 Years Old);500
+2011;Outrage Of Modesty;Male;21 Years Old And Below;70
+2012;Outrage Of Modesty;Male;21 Years Old And Below;69
+2013;Outrage Of Modesty;Male;21 Years Old And Below;63
+2014;Outrage Of Modesty;Male;21 Years Old And Below;67
+2015;Outrage Of Modesty;Male;21 Years Old And Below;59
+2016;Outrage Of Modesty;Male;21 Years Old And Below;59
+2017;Outrage Of Modesty;Male;21 Years Old And Below;90
+2018;Outrage Of Modesty;Male;21 Years Old And Below;71
+2019;Outrage Of Modesty;Male;21 Years Old And Below;112
+2011;Outrage Of Modesty;Male;Above 21 Years Old;12
+2012;Outrage Of Modesty;Male;Above 21 Years Old;19
+2013;Outrage Of Modesty;Male;Above 21 Years Old;22
+2014;Outrage Of Modesty;Male;Above 21 Years Old;18
+2015;Outrage Of Modesty;Male;Above 21 Years Old;31
+2016;Outrage Of Modesty;Male;Above 21 Years Old;38
+2017;Outrage Of Modesty;Male;Above 21 Years Old;26
+2018;Outrage Of Modesty;Male;Above 21 Years Old;54
+2019;Outrage Of Modesty;Male;Above 21 Years Old;57
+2011;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);60
+2012;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);62
+2013;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);56
+2014;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);65
+2015;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);49
+2016;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);51
+2017;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);79
+2018;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);51
+2019;Outrage Of Modesty;Male;Youths (7 To 19 Years Old);95
+2011;Rape;Male;21 Years Old And Below;0
+2012;Rape;Male;21 Years Old And Below;0
+2013;Rape;Male;21 Years Old And Below;0
+2014;Rape;Male;21 Years Old And Below;0
+2015;Rape;Male;21 Years Old And Below;0
+2016;Rape;Male;21 Years Old And Below;0
+2017;Rape;Male;21 Years Old And Below;0
+2018;Rape;Male;21 Years Old And Below;0
+2019;Rape;Male;21 Years Old And Below;0
+2011;Rape;Male;Above 21 Years Old;0
+2012;Rape;Male;Above 21 Years Old;0
+2013;Rape;Male;Above 21 Years Old;0
+2014;Rape;Male;Above 21 Years Old;0
+2015;Rape;Male;Above 21 Years Old;0
+2016;Rape;Male;Above 21 Years Old;0
+2017;Rape;Male;Above 21 Years Old;0
+2018;Rape;Male;Above 21 Years Old;0
+2019;Rape;Male;Above 21 Years Old;0
+2011;Rape;Male;Youths (7 To 19 Years Old);0
+2012;Rape;Male;Youths (7 To 19 Years Old);0
+2013;Rape;Male;Youths (7 To 19 Years Old);0
+2014;Rape;Male;Youths (7 To 19 Years Old);0
+2015;Rape;Male;Youths (7 To 19 Years Old);0
+2016;Rape;Male;Youths (7 To 19 Years Old);0
+2017;Rape;Male;Youths (7 To 19 Years Old);0
+2018;Rape;Male;Youths (7 To 19 Years Old);0
+2019;Rape;Male;Youths (7 To 19 Years Old);0
+2011;Robbery;Male;21 Years Old And Below;80
+2012;Robbery;Male;21 Years Old And Below;43
+2013;Robbery;Male;21 Years Old And Below;37
+2014;Robbery;Male;21 Years Old And Below;38
+2015;Robbery;Male;21 Years Old And Below;8
+2016;Robbery;Male;21 Years Old And Below;10
+2017;Robbery;Male;21 Years Old And Below;4
+2018;Robbery;Male;21 Years Old And Below;8
+2019;Robbery;Male;21 Years Old And Below;13
+2011;Robbery;Male;Above 21 Years Old;235
+2012;Robbery;Male;Above 21 Years Old;179
+2013;Robbery;Male;Above 21 Years Old;157
+2014;Robbery;Male;Above 21 Years Old;155
+2015;Robbery;Male;Above 21 Years Old;88
+2016;Robbery;Male;Above 21 Years Old;50
+2017;Robbery;Male;Above 21 Years Old;58
+2018;Robbery;Male;Above 21 Years Old;45
+2019;Robbery;Male;Above 21 Years Old;33
+2011;Robbery;Male;Youths (7 To 19 Years Old);70
+2012;Robbery;Male;Youths (7 To 19 Years Old);28
+2013;Robbery;Male;Youths (7 To 19 Years Old);27
+2014;Robbery;Male;Youths (7 To 19 Years Old);33
+2015;Robbery;Male;Youths (7 To 19 Years Old);4
+2016;Robbery;Male;Youths (7 To 19 Years Old);8
+2017;Robbery;Male;Youths (7 To 19 Years Old);2
+2018;Robbery;Male;Youths (7 To 19 Years Old);5
+2019;Robbery;Male;Youths (7 To 19 Years Old);9
+2011;Snatch Theft;Male;21 Years Old And Below;22
+2012;Snatch Theft;Male;21 Years Old And Below;17
+2013;Snatch Theft;Male;21 Years Old And Below;8
+2014;Snatch Theft;Male;21 Years Old And Below;3
+2015;Snatch Theft;Male;21 Years Old And Below;3
+2016;Snatch Theft;Male;21 Years Old And Below;4
+2017;Snatch Theft;Male;21 Years Old And Below;3
+2018;Snatch Theft;Male;21 Years Old And Below;1
+2019;Snatch Theft;Male;21 Years Old And Below;0
+2011;Snatch Theft;Male;Above 21 Years Old;49
+2012;Snatch Theft;Male;Above 21 Years Old;46
+2013;Snatch Theft;Male;Above 21 Years Old;37
+2014;Snatch Theft;Male;Above 21 Years Old;36
+2015;Snatch Theft;Male;Above 21 Years Old;9
+2016;Snatch Theft;Male;Above 21 Years Old;12
+2017;Snatch Theft;Male;Above 21 Years Old;13
+2018;Snatch Theft;Male;Above 21 Years Old;15
+2019;Snatch Theft;Male;Above 21 Years Old;14
+2011;Snatch Theft;Male;Youths (7 To 19 Years Old);18
+2012;Snatch Theft;Male;Youths (7 To 19 Years Old);14
+2013;Snatch Theft;Male;Youths (7 To 19 Years Old);7
+2014;Snatch Theft;Male;Youths (7 To 19 Years Old);3
+2015;Snatch Theft;Male;Youths (7 To 19 Years Old);3
+2016;Snatch Theft;Male;Youths (7 To 19 Years Old);3
+2017;Snatch Theft;Male;Youths (7 To 19 Years Old);3
+2018;Snatch Theft;Male;Youths (7 To 19 Years Old);1
+2019;Snatch Theft;Male;Youths (7 To 19 Years Old);0
+2011;Cheating & Related;Total;21 Years Old And Below;296
+2012;Cheating & Related;Total;21 Years Old And Below;296
+2013;Cheating & Related;Total;21 Years Old And Below;321
+2014;Cheating & Related;Total;21 Years Old And Below;528
+2015;Cheating & Related;Total;21 Years Old And Below;925
+2016;Cheating & Related;Total;21 Years Old And Below;892
+2017;Cheating & Related;Total;21 Years Old And Below;795
+2018;Cheating & Related;Total;21 Years Old And Below;968
+2019;Cheating & Related;Total;21 Years Old And Below;1386
+2011;Cheating & Related;Total;Above 21 Years Old;1970
+2012;Cheating & Related;Total;Above 21 Years Old;1520
+2013;Cheating & Related;Total;Above 21 Years Old;1989
+2014;Cheating & Related;Total;Above 21 Years Old;3417
+2015;Cheating & Related;Total;Above 21 Years Old;5898
+2016;Cheating & Related;Total;Above 21 Years Old;5748
+2017;Cheating & Related;Total;Above 21 Years Old;5923
+2018;Cheating & Related;Total;Above 21 Years Old;6537
+2019;Cheating & Related;Total;Above 21 Years Old;9489
+2011;Cheating & Related;Total;Youths (7 To 19 Years Old);181
+2012;Cheating & Related;Total;Youths (7 To 19 Years Old);204
+2013;Cheating & Related;Total;Youths (7 To 19 Years Old);188
+2014;Cheating & Related;Total;Youths (7 To 19 Years Old);308
+2015;Cheating & Related;Total;Youths (7 To 19 Years Old);519
+2016;Cheating & Related;Total;Youths (7 To 19 Years Old);511
+2017;Cheating & Related;Total;Youths (7 To 19 Years Old);458
+2018;Cheating & Related;Total;Youths (7 To 19 Years Old);560
+2019;Cheating & Related;Total;Youths (7 To 19 Years Old);811
+2011;Outrage Of Modesty;Total;21 Years Old And Below;656
+2012;Outrage Of Modesty;Total;21 Years Old And Below;654
+2013;Outrage Of Modesty;Total;21 Years Old And Below;642
+2014;Outrage Of Modesty;Total;21 Years Old And Below;635
+2015;Outrage Of Modesty;Total;21 Years Old And Below;578
+2016;Outrage Of Modesty;Total;21 Years Old And Below;525
+2017;Outrage Of Modesty;Total;21 Years Old And Below;708
+2018;Outrage Of Modesty;Total;21 Years Old And Below;763
+2019;Outrage Of Modesty;Total;21 Years Old And Below;715
+2011;Outrage Of Modesty;Total;Above 21 Years Old;822
+2012;Outrage Of Modesty;Total;Above 21 Years Old;847
+2013;Outrage Of Modesty;Total;Above 21 Years Old;789
+2014;Outrage Of Modesty;Total;Above 21 Years Old;811
+2015;Outrage Of Modesty;Total;Above 21 Years Old;787
+2016;Outrage Of Modesty;Total;Above 21 Years Old;812
+2017;Outrage Of Modesty;Total;Above 21 Years Old;958
+2018;Outrage Of Modesty;Total;Above 21 Years Old;1091
+2019;Outrage Of Modesty;Total;Above 21 Years Old;1017
+2011;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);534
+2012;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);489
+2013;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);502
+2014;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);504
+2015;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);465
+2016;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);400
+2017;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);554
+2018;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);584
+2019;Outrage Of Modesty;Total;Youths (7 To 19 Years Old);547
+2011;Rape;Total;21 Years Old And Below;105
+2012;Rape;Total;21 Years Old And Below;97
+2013;Rape;Total;21 Years Old And Below;83
+2014;Rape;Total;21 Years Old And Below;115
+2015;Rape;Total;21 Years Old And Below;107
+2016;Rape;Total;21 Years Old And Below;104
+2017;Rape;Total;21 Years Old And Below;116
+2018;Rape;Total;21 Years Old And Below;129
+2019;Rape;Total;21 Years Old And Below;181
+2011;Rape;Total;Above 21 Years Old;45
+2012;Rape;Total;Above 21 Years Old;41
+2013;Rape;Total;Above 21 Years Old;40
+2014;Rape;Total;Above 21 Years Old;51
+2015;Rape;Total;Above 21 Years Old;60
+2016;Rape;Total;Above 21 Years Old;45
+2017;Rape;Total;Above 21 Years Old;73
+2018;Rape;Total;Above 21 Years Old;85
+2019;Rape;Total;Above 21 Years Old;107
+2011;Rape;Total;Youths (7 To 19 Years Old);96
+2012;Rape;Total;Youths (7 To 19 Years Old);82
+2013;Rape;Total;Youths (7 To 19 Years Old);79
+2014;Rape;Total;Youths (7 To 19 Years Old);104
+2015;Rape;Total;Youths (7 To 19 Years Old);93
+2016;Rape;Total;Youths (7 To 19 Years Old);95
+2017;Rape;Total;Youths (7 To 19 Years Old);97
+2018;Rape;Total;Youths (7 To 19 Years Old);114
+2019;Rape;Total;Youths (7 To 19 Years Old);158
+2011;Robbery;Total;21 Years Old And Below;107
+2012;Robbery;Total;21 Years Old And Below;68
+2013;Robbery;Total;21 Years Old And Below;50
+2014;Robbery;Total;21 Years Old And Below;51
+2015;Robbery;Total;21 Years Old And Below;12
+2016;Robbery;Total;21 Years Old And Below;13
+2017;Robbery;Total;21 Years Old And Below;5
+2018;Robbery;Total;21 Years Old And Below;11
+2019;Robbery;Total;21 Years Old And Below;17
+2011;Robbery;Total;Above 21 Years Old;342
+2012;Robbery;Total;Above 21 Years Old;265
+2013;Robbery;Total;Above 21 Years Old;224
+2014;Robbery;Total;Above 21 Years Old;201
+2015;Robbery;Total;Above 21 Years Old;120
+2016;Robbery;Total;Above 21 Years Old;94
+2017;Robbery;Total;Above 21 Years Old;76
+2018;Robbery;Total;Above 21 Years Old;70
+2019;Robbery;Total;Above 21 Years Old;47
+2011;Robbery;Total;Youths (7 To 19 Years Old);88
+2012;Robbery;Total;Youths (7 To 19 Years Old);46
+2013;Robbery;Total;Youths (7 To 19 Years Old);36
+2014;Robbery;Total;Youths (7 To 19 Years Old);42
+2015;Robbery;Total;Youths (7 To 19 Years Old);7
+2016;Robbery;Total;Youths (7 To 19 Years Old);8
+2017;Robbery;Total;Youths (7 To 19 Years Old);2
+2018;Robbery;Total;Youths (7 To 19 Years Old);5
+2019;Robbery;Total;Youths (7 To 19 Years Old);12
+2011;Snatch Theft;Total;21 Years Old And Below;70
+2012;Snatch Theft;Total;21 Years Old And Below;54
+2013;Snatch Theft;Total;21 Years Old And Below;38
+2014;Snatch Theft;Total;21 Years Old And Below;15
+2015;Snatch Theft;Total;21 Years Old And Below;8
+2016;Snatch Theft;Total;21 Years Old And Below;10
+2017;Snatch Theft;Total;21 Years Old And Below;9
+2018;Snatch Theft;Total;21 Years Old And Below;5
+2019;Snatch Theft;Total;21 Years Old And Below;1
+2011;Snatch Theft;Total;Above 21 Years Old;280
+2012;Snatch Theft;Total;Above 21 Years Old;236
+2013;Snatch Theft;Total;Above 21 Years Old;199
+2014;Snatch Theft;Total;Above 21 Years Old;150
+2015;Snatch Theft;Total;Above 21 Years Old;76
+2016;Snatch Theft;Total;Above 21 Years Old;53
+2017;Snatch Theft;Total;Above 21 Years Old;42
+2018;Snatch Theft;Total;Above 21 Years Old;45
+2019;Snatch Theft;Total;Above 21 Years Old;36
+2011;Snatch Theft;Total;Youths (7 To 19 Years Old);50
+2012;Snatch Theft;Total;Youths (7 To 19 Years Old);38
+2013;Snatch Theft;Total;Youths (7 To 19 Years Old);28
+2014;Snatch Theft;Total;Youths (7 To 19 Years Old);12
+2015;Snatch Theft;Total;Youths (7 To 19 Years Old);8
+2016;Snatch Theft;Total;Youths (7 To 19 Years Old);7
+2017;Snatch Theft;Total;Youths (7 To 19 Years Old);8
+2018;Snatch Theft;Total;Youths (7 To 19 Years Old);4
+2019;Snatch Theft;Total;Youths (7 To 19 Years Old);1
