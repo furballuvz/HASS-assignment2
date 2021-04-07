@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HASS02.526 Assignment 2</title>
+    <meta charset="utf-8" />
+    
+    <style>
+
+    @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+    
+    body {
+        font-family: "Roboto", helvetica, arial, sans-serif;
+        display: block;
+        margin: auto;
+        padding:30px;
+        width: 100%;
+        text-align: center;
+    }
+    h3 {
+       font-size: 30px;
+       font-weight: 400;
+       font-style:normal;
+       text-transform:uppercase;
+    }
+    p {
+       color: #404040;
+       font-size: 16px;
+       font-style:normal;
+    }
+    .container{
+        padding: 30px 30px 50px;
+    }
+    
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.19.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.15.1"></script>
+    
+    <style media="screen">
+
+    </style>
+    
+  </head>
+  <body>
+    <h3>Victims of Selected Major Selected Offences in Singapore</h3>
+    <p> Data retrieved from  <a href="https://data.gov.sg/dataset/victims-of-selected-major-selected-offences">data.gov.sg</a>.</p>
+    <div class="container">
+        <div class="vis_1"></div>
+        <div class="vis_2"></div>
+        <p><b> There is a significant increase in victims of scam cases, although robbery and thefts cases fell.</b></p>
+        <p> Scam cases typically include social media impersonation scams, phishing scams,
+            E-commerce scams and loan scams. <br> As Singaporeans are spending more time on social media platforms, and carry out more online transactions, <br> they become vulnerable targets
+            of criminals who moved their illegal activities online.
+        </p> 
+    </div>
+    <div class="container">
+        <div class="vis_3"></div>
+        <p><br><b> While there is significantly more female victims of outrage of modesty cases,<br> there seemed to be a rise in number of male victims lately.</b></p>
+        <p> With the increase in awareness about sexual harrassment faced by women, we tend to overlook that the victims can include <br> men and boys,
+         particularly age 21 and below. There may still be many unreported cases as male victims find it <br> more difficult to come forward about their experiences than females.   
+        </p> 
+    </div>
+    <script>
+      var viz1 = {
+          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+          "data": {"url": "data_offences.csv"},
+          "title": "Cheating & related cases in Singapore",
+          "width": 450,"height": 300,
+          "transform": [
+              {"filter": "datum.offence==='Cheating & Related'"}
+          ],
+          "encoding": {
+              "x": {
+                  "field": "year", 
+                  "type": "ordinal",
+                  "title": "Year"
+              }
+          },
+          "layer": [
+           {
+            "encoding": {
+                "color": {
+                    "legend": null,
+                    "field": "gender", "title": "", "type": "nominal", 
+                    "scale": {"domain" : ["Total", "Male", "Female"], "range": ["rgb(212,161,72)", "rgb(88,116,183)", "rgb(219,83,101)"]}
+                  },
+                "y": {
+                    "aggregate": "sum", "field": "value", "title": "No. of victims", "type": "quantitative"}
+                  },
+              "layer": [
+                {"mark": "line"},
+                {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "circle"}
+              ]
+            },
+            {
+              "transform": [
+              {"pivot": "gender", "value": "value", "groupby": ["year"]}
+              ],
+              "mark": "rule",
+              "encoding": {
+                "opacity": {
+                  "condition": {"value": 0.3, "param": "hover", "empty": false},
+                  "value": 0
+                },
+                "tooltip": [
+                  {"field": "Total", "type": "quantitative"},
+                  {"field": "Male", "type": "quantitative"},
+                  {"field": "Female", "type": "quantitative"}
+                ]
+              },
+              "params": [{
+                "name": "hover",
+                "select": {
+                  "type": "point",
+                  "fields": ["year"],
+                  "nearest": true,
+                  "on": "mouseover",
+                  "clear": "mouseout"
+                }
+              }]
+            }
+          ]
+        };
+        
+         var viz2 = {
+          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+          "data": {"url": "data_offences.csv"},
+          "title": "Robbery and snatch theft cases in Singapore",
+          "width": 450,"height": 300,
+          "transform": [
+              {"filter": "datum.offence === 'Robbery' || datum.offence === 'Snatch Theft'"}
+          ],
+          "encoding": {"x": {"field": "year", "type": "ordinal", "title": "Year"}},
+          "layer": [
+           {
+            "encoding": {
+                "color": {
+                    "field": "gender", "title": "", "type": "nominal", 
+                    "scale": {"domain" : ["Total", "Male", "Female"], "range": ["rgb(212,161,72)", "rgb(88,116,183)", "rgb(219,83,101)"]}
+                  },
+                "y": {
+                    "aggregate": "sum", "field": "value", "title": "No. of victims", "type": "quantitative"}
+                  },
+              "layer": [
+                {"mark": "line"},
+                {"transform": [{"filter": {"param": "hover", "empty": false}}], "mark": "circle"}
+              ]
+            },
+            {
+              "transform": [
+              {"pivot": "gender", "value": "value", "groupby": ["year"]}
+              ],
+              "mark": "rule",
+              "encoding": {
+                "opacity": {
+                  "condition": {"value": 0.3, "param": "hover", "empty": false},
+                  "value": 0
+                },
+                "tooltip": [
+                  {"field": "Total", "type": "quantitative"},
+                  {"field": "Male", "type": "quantitative"},
+                  {"field": "Female", "type": "quantitative"}
+                ]
+              },
+              "params": [{
+                "name": "hover",
+                "select": {
+                  "type": "point",
+                  "fields": ["year"],
+                  "nearest": true,
+                  "on": "mouseover",
+                  "clear": "mouseout"
+                }
+              }]
+            }
+          ]
+        };
+        
+         var viz3 = {
+          "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+          "data": {"url": "data_offences.csv"},
+          "title": {"text": "Outrage of modesty cases in Singapore",  "anchor": "middle"},
+          "width": {"step": 24},"height": 400,
+          "transform": [
+              {"filter": "datum.offence === 'Outrage Of Modesty'"},
+              {"filter": "datum.gender === 'Female' || datum.gender === 'Male'"},
+              {"calculate": "indexof(['Youths (7 To 19 Years Old)', '21 Years Old And Below', 'Above 21 Years Old'], datum['age group'])", "as": "order"}
+          ],
+          "mark": "bar",
+          "encoding": {
+              "column": {"field": "year", "type": "ordinal", "title": "Year"},
+              "x": {"field": "gender", "type": "ordinal", "axis": {"title": ""}
+              },
+              "y": {"aggregate": "sum", "field": "value", "title": "No. of victims", "type": "quantitative"},
+              "tooltip": [
+                  {"field": "gender", "type": "nominal", "title": "Gender"},
+                  {"field": "age group", "type": "nominal", "title": "Age"},
+                  {"field": "value", "type": "quantitative", "title": "Victims"}
+                ],
+              "color": {
+                    "field": "age group", "title": "Age group", "type": "nominal", 
+                    "scale": {"domain" : ["Above 21 Years Old", "21 Years Old And Below", "Youths (7 To 19 Years Old)"], "range": ["rgb(216,102,102)", "rgb(185,130,130)", "rgb(137,137,137)"]
+                      }
+                  },
+              "order": {"field": "order", "type": "ordinal"},
+          },
+           "config": {
+            "view": {"stroke": "transparent"},
+            "axis": {"domainWidth": 1}
+          }
+        };
+      vegaEmbed('.vis_1', viz1, {"actions": false});
+      vegaEmbed('.vis_2', viz2, {"actions": false});
+      vegaEmbed('.vis_3', viz3, {"actions": false});
+    </script>
+  </body>
+</html>
